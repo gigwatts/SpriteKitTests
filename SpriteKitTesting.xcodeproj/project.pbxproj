@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA0683FF1C87E0310026431B /* Screen Shot 2016-03-02 at 9.59.05 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = DA0683FE1C87E0300026431B /* Screen Shot 2016-03-02 at 9.59.05 PM.png */; };
+		DA0684011C87E4920026431B /* PingA.wav in Resources */ = {isa = PBXBuildFile; fileRef = DA0684001C87E4920026431B /* PingA.wav */; };
 		DA6A99CB1C7D59F900A8B813 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6A99CA1C7D59F900A8B813 /* AppDelegate.swift */; };
 		DA6A99CD1C7D59F900A8B813 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DA6A99CC1C7D59F900A8B813 /* GameScene.sks */; };
 		DA6A99CF1C7D59F900A8B813 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6A99CE1C7D59F900A8B813 /* GameScene.swift */; };
@@ -16,6 +18,16 @@
 		DA6A99D91C7D59F900A8B813 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA6A99D71C7D59F900A8B813 /* LaunchScreen.storyboard */; };
 		DA6A99E41C7D59F900A8B813 /* SpriteKitTestingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6A99E31C7D59F900A8B813 /* SpriteKitTestingTests.swift */; };
 		DA6A99EF1C7D59F900A8B813 /* SpriteKitTestingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6A99EE1C7D59F900A8B813 /* SpriteKitTestingUITests.swift */; };
+		DA6A99FD1C7D5F6600A8B813 /* MainMenu.sks in Resources */ = {isa = PBXBuildFile; fileRef = DA6A99FC1C7D5F6600A8B813 /* MainMenu.sks */; };
+		DA6A99FF1C7D5FCE00A8B813 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6A99FE1C7D5FCE00A8B813 /* MainMenu.swift */; };
+		DA83EFA31C8E85B100B4D398 /* AVTonePlayerUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA83EFA21C8E85B100B4D398 /* AVTonePlayerUnit.swift */; };
+		DA8A9D8F1C9BA29300032F01 /* Tuner.sks in Resources */ = {isa = PBXBuildFile; fileRef = DA8A9D8E1C9BA29300032F01 /* Tuner.sks */; };
+		DA8A9D911C9BAB0400032F01 /* AudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8A9D901C9BAB0400032F01 /* AudioKit.framework */; };
+		DA8A9D921C9BAB0400032F01 /* AudioKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DA8A9D901C9BAB0400032F01 /* AudioKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DA8A9D991C9BB43C00032F01 /* Pitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8A9D981C9BB43C00032F01 /* Pitch.swift */; };
+		DA8A9D9B1C9BB45C00032F01 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8A9D9A1C9BB45C00032F01 /* Note.swift */; };
+		DA8A9D9D1C9E458600032F01 /* Tuner.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8A9D9C1C9E458600032F01 /* Tuner.swift */; };
+		DADB0E131C98EFCC00F39690 /* RandomTone.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADB0E121C98EFCB00F39690 /* RandomTone.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +47,23 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		DA8A9D931C9BAB0400032F01 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DA8A9D921C9BAB0400032F01 /* AudioKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		DA0683FE1C87E0300026431B /* Screen Shot 2016-03-02 at 9.59.05 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2016-03-02 at 9.59.05 PM.png"; path = "../../../../../../../Desktop/Screen Shot 2016-03-02 at 9.59.05 PM.png"; sourceTree = "<group>"; };
+		DA0684001C87E4920026431B /* PingA.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = PingA.wav; path = ../../../../../../../Desktop/PingA.wav; sourceTree = "<group>"; };
 		DA6A99C71C7D59F900A8B813 /* SpriteKitTesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpriteKitTesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA6A99CA1C7D59F900A8B813 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA6A99CC1C7D59F900A8B813 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -51,6 +79,15 @@
 		DA6A99EA1C7D59F900A8B813 /* SpriteKitTestingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpriteKitTestingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA6A99EE1C7D59F900A8B813 /* SpriteKitTestingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitTestingUITests.swift; sourceTree = "<group>"; };
 		DA6A99F01C7D59F900A8B813 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA6A99FC1C7D5F6600A8B813 /* MainMenu.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainMenu.sks; sourceTree = "<group>"; };
+		DA6A99FE1C7D5FCE00A8B813 /* MainMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+		DA83EFA21C8E85B100B4D398 /* AVTonePlayerUnit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVTonePlayerUnit.swift; sourceTree = "<group>"; };
+		DA8A9D8E1C9BA29300032F01 /* Tuner.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Tuner.sks; sourceTree = "<group>"; };
+		DA8A9D901C9BAB0400032F01 /* AudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioKit.framework; path = ../AudioKit.framework; sourceTree = "<group>"; };
+		DA8A9D981C9BB43C00032F01 /* Pitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pitch.swift; sourceTree = "<group>"; };
+		DA8A9D9A1C9BB45C00032F01 /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		DA8A9D9C1C9E458600032F01 /* Tuner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tuner.swift; path = "/Users/dustin/Documents/OMS CS/EdTech/Prototypes/SpriteKit/SpriteKitTesting/SpriteKitTesting/Tuner.swift"; sourceTree = "<absolute>"; };
+		DADB0E121C98EFCB00F39690 /* RandomTone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomTone.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA8A9D911C9BAB0400032F01 /* AudioKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,14 +139,19 @@
 		DA6A99C91C7D59F900A8B813 /* SpriteKitTesting */ = {
 			isa = PBXGroup;
 			children = (
+				DA8A9D971C9BB31000032F01 /* Tuner Logic */,
+				DA8A9D951C9BABC900032F01 /* Scenes */,
+				DADB0E121C98EFCB00F39690 /* RandomTone.swift */,
 				DA6A99CA1C7D59F900A8B813 /* AppDelegate.swift */,
-				DA6A99CC1C7D59F900A8B813 /* GameScene.sks */,
 				DA6A99CE1C7D59F900A8B813 /* GameScene.swift */,
+				DA83EFA21C8E85B100B4D398 /* AVTonePlayerUnit.swift */,
+				DA6A99FE1C7D5FCE00A8B813 /* MainMenu.swift */,
 				DA6A99D01C7D59F900A8B813 /* GameViewController.swift */,
 				DA6A99D21C7D59F900A8B813 /* Main.storyboard */,
-				DA6A99D51C7D59F900A8B813 /* Assets.xcassets */,
 				DA6A99D71C7D59F900A8B813 /* LaunchScreen.storyboard */,
 				DA6A99DA1C7D59F900A8B813 /* Info.plist */,
+				DA8A9D961C9BABFC00032F01 /* Assets */,
+				DA8A9D941C9BABB000032F01 /* Frameworks */,
 			);
 			path = SpriteKitTesting;
 			sourceTree = "<group>";
@@ -131,6 +174,44 @@
 			path = SpriteKitTestingUITests;
 			sourceTree = "<group>";
 		};
+		DA8A9D941C9BABB000032F01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA8A9D901C9BAB0400032F01 /* AudioKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA8A9D951C9BABC900032F01 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				DA6A99CC1C7D59F900A8B813 /* GameScene.sks */,
+				DA8A9D8E1C9BA29300032F01 /* Tuner.sks */,
+				DA6A99FC1C7D5F6600A8B813 /* MainMenu.sks */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		DA8A9D961C9BABFC00032F01 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				DA0683FE1C87E0300026431B /* Screen Shot 2016-03-02 at 9.59.05 PM.png */,
+				DA0684001C87E4920026431B /* PingA.wav */,
+				DA6A99D51C7D59F900A8B813 /* Assets.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		DA8A9D971C9BB31000032F01 /* Tuner Logic */ = {
+			isa = PBXGroup;
+			children = (
+				DA8A9D981C9BB43C00032F01 /* Pitch.swift */,
+				DA8A9D9A1C9BB45C00032F01 /* Note.swift */,
+				DA8A9D9C1C9E458600032F01 /* Tuner.swift */,
+			);
+			name = "Tuner Logic";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,6 +222,7 @@
 				DA6A99C31C7D59F900A8B813 /* Sources */,
 				DA6A99C41C7D59F900A8B813 /* Frameworks */,
 				DA6A99C51C7D59F900A8B813 /* Resources */,
+				DA8A9D931C9BAB0400032F01 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -241,7 +323,11 @@
 				DA6A99CD1C7D59F900A8B813 /* GameScene.sks in Resources */,
 				DA6A99D91C7D59F900A8B813 /* LaunchScreen.storyboard in Resources */,
 				DA6A99D61C7D59F900A8B813 /* Assets.xcassets in Resources */,
+				DA0683FF1C87E0310026431B /* Screen Shot 2016-03-02 at 9.59.05 PM.png in Resources */,
+				DA6A99FD1C7D5F6600A8B813 /* MainMenu.sks in Resources */,
 				DA6A99D41C7D59F900A8B813 /* Main.storyboard in Resources */,
+				DA8A9D8F1C9BA29300032F01 /* Tuner.sks in Resources */,
+				DA0684011C87E4920026431B /* PingA.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,8 +353,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA6A99CF1C7D59F900A8B813 /* GameScene.swift in Sources */,
+				DA8A9D9D1C9E458600032F01 /* Tuner.swift in Sources */,
+				DA8A9D991C9BB43C00032F01 /* Pitch.swift in Sources */,
+				DA83EFA31C8E85B100B4D398 /* AVTonePlayerUnit.swift in Sources */,
+				DA8A9D9B1C9BB45C00032F01 /* Note.swift in Sources */,
 				DA6A99D11C7D59F900A8B813 /* GameViewController.swift in Sources */,
 				DA6A99CB1C7D59F900A8B813 /* AppDelegate.swift in Sources */,
+				DADB0E131C98EFCC00F39690 /* RandomTone.swift in Sources */,
+				DA6A99FF1C7D5FCE00A8B813 /* MainMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +502,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SpriteKitTesting/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gigwatts.SpriteKitTesting;
@@ -421,6 +517,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SpriteKitTesting/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gigwatts.SpriteKitTesting;
@@ -497,6 +597,7 @@
 				DA6A99F51C7D59F900A8B813 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA6A99F61C7D59F900A8B813 /* Build configuration list for PBXNativeTarget "SpriteKitTestingTests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +606,7 @@
 				DA6A99F81C7D59F900A8B813 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA6A99F91C7D59F900A8B813 /* Build configuration list for PBXNativeTarget "SpriteKitTestingUITests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +615,7 @@
 				DA6A99FB1C7D59F900A8B813 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DA1276651CC3307A00A3F4EF /* AudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA1276641CC3307A00A3F4EF /* AudioKit.framework */; };
 		DA1276671CC332D000A3F4EF /* AudioKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DA1276661CC332CF00A3F4EF /* AudioKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DA3A135A1CB053D3008DA621 /* PingA.wav in Resources */ = {isa = PBXBuildFile; fileRef = DA3A13591CB053D3008DA621 /* PingA.wav */; };
 		DA66ACCA1CBB321F00EC17F7 /* NoteSpark.sks in Resources */ = {isa = PBXBuildFile; fileRef = DA66ACC81CBB321F00EC17F7 /* NoteSpark.sks */; };
@@ -60,8 +59,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		DA1276641CC3307A00A3F4EF /* AudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioKit.framework; path = ../AudioKit.framework; sourceTree = "<group>"; };
-		DA1276661CC332CF00A3F4EF /* AudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AudioKit.framework; sourceTree = "<group>"; };
+		DA1276661CC332CF00A3F4EF /* AudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioKit.framework; path = ../AudioKit.framework; sourceTree = "<group>"; };
 		DA3A13591CB053D3008DA621 /* PingA.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = PingA.wav; sourceTree = "<group>"; };
 		DA66ACC81CBB321F00EC17F7 /* NoteSpark.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = NoteSpark.sks; sourceTree = "<group>"; };
 		DA66ACC91CBB321F00EC17F7 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
@@ -92,7 +90,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA1276651CC3307A00A3F4EF /* AudioKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,7 +113,6 @@
 		DA6A99BE1C7D59F800A8B813 = {
 			isa = PBXGroup;
 			children = (
-				DA1276661CC332CF00A3F4EF /* AudioKit.framework */,
 				DA66ACC81CBB321F00EC17F7 /* NoteSpark.sks */,
 				DA66ACC91CBB321F00EC17F7 /* spark.png */,
 				DA6A99C91C7D59F900A8B813 /* Muse of Music */,
@@ -180,7 +176,7 @@
 		DA8A9D941C9BABB000032F01 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DA1276641CC3307A00A3F4EF /* AudioKit.framework */,
+				DA1276661CC332CF00A3F4EF /* AudioKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

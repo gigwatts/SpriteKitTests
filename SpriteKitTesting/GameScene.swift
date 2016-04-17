@@ -92,12 +92,14 @@ var highDArray = [Int]()
 var troubleStart: Int = 1
 
 class GameScene: SKScene {
+
     
+    //TODO: Aure, all of the AudioKit code is in the section below. The next TODO note is the end of AudioKit code. Thanks for reviewing. Note setupMic is triggered by an NSTimer.
     func setupMic(){
         if !micSetup{
-//            AKSettings.audioInputEnabled = true //per post: https://groups.google.com/forum/#!searchin/audiokit/AKMicrophone/audiokit/3eVbbut65CM/BoQQbxo3CAAJ            
+            AKSettings.audioInputEnabled = true //per post: https://groups.google.com/forum/#!searchin/audiokit/AKMicrophone/audiokit/3eVbbut65CM/BoQQbxo3CAAJ            
             let mic = AKMicrophone()
-//            mic.start()
+            mic.start()
             freqTracker = AKFrequencyTracker.init(mic, minimumFrequency: 25, maximumFrequency: 4200)
             let silence = AKBooster(freqTracker, gain: 0)
             AudioKit.output = silence //per post: https://groups.google.com/forum/#!searchin/audiokit/AKMicrophone$20silence/audiokit/L9tb9TRL9bs/y3rqvdw1CAAJ
@@ -187,6 +189,12 @@ class GameScene: SKScene {
         AudioKit.stop()
         micSetup = false
     }
+    
+    
+    //TODO: END of AudioKit code
+    
+    
+    
     
     
     func fadeOut(note: SKNode, alpha: CGFloat){
@@ -560,7 +568,6 @@ class GameScene: SKScene {
                     print("COLLECTING FREQUENCIES")
                     frequencyTimer = NSTimer.scheduledTimerWithTimeInterval(0.01, target: self, selector: Selector("setupMic"), userInfo: nil, repeats: true)
                     frequencyTimer?.fire()
-//                    setupMic()
 
                 } else {
                    //iteratively collect data until stopped

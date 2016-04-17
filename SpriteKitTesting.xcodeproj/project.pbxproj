@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DA0683FF1C87E0310026431B /* Screen Shot 2016-03-02 at 9.59.05 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = DA0683FE1C87E0300026431B /* Screen Shot 2016-03-02 at 9.59.05 PM.png */; };
-		DA0684011C87E4920026431B /* PingA.wav in Resources */ = {isa = PBXBuildFile; fileRef = DA0684001C87E4920026431B /* PingA.wav */; };
+		DA1276651CC3307A00A3F4EF /* AudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA1276641CC3307A00A3F4EF /* AudioKit.framework */; };
+		DA1276671CC332D000A3F4EF /* AudioKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DA1276661CC332CF00A3F4EF /* AudioKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DA3A135A1CB053D3008DA621 /* PingA.wav in Resources */ = {isa = PBXBuildFile; fileRef = DA3A13591CB053D3008DA621 /* PingA.wav */; };
+		DA66ACCA1CBB321F00EC17F7 /* NoteSpark.sks in Resources */ = {isa = PBXBuildFile; fileRef = DA66ACC81CBB321F00EC17F7 /* NoteSpark.sks */; };
+		DA66ACCB1CBB321F00EC17F7 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = DA66ACC91CBB321F00EC17F7 /* spark.png */; };
 		DA6A99CB1C7D59F900A8B813 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6A99CA1C7D59F900A8B813 /* AppDelegate.swift */; };
 		DA6A99CD1C7D59F900A8B813 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DA6A99CC1C7D59F900A8B813 /* GameScene.sks */; };
 		DA6A99CF1C7D59F900A8B813 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6A99CE1C7D59F900A8B813 /* GameScene.swift */; };
@@ -16,17 +19,12 @@
 		DA6A99D41C7D59F900A8B813 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA6A99D21C7D59F900A8B813 /* Main.storyboard */; };
 		DA6A99D61C7D59F900A8B813 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA6A99D51C7D59F900A8B813 /* Assets.xcassets */; };
 		DA6A99D91C7D59F900A8B813 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA6A99D71C7D59F900A8B813 /* LaunchScreen.storyboard */; };
-		DA6A99E41C7D59F900A8B813 /* SpriteKitTestingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6A99E31C7D59F900A8B813 /* SpriteKitTestingTests.swift */; };
-		DA6A99EF1C7D59F900A8B813 /* SpriteKitTestingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6A99EE1C7D59F900A8B813 /* SpriteKitTestingUITests.swift */; };
+		DA6A99E41C7D59F900A8B813 /* MuseOfMusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6A99E31C7D59F900A8B813 /* MuseOfMusicTests.swift */; };
+		DA6A99EF1C7D59F900A8B813 /* MuseOfMusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6A99EE1C7D59F900A8B813 /* MuseOfMusicUITests.swift */; };
 		DA6A99FD1C7D5F6600A8B813 /* MainMenu.sks in Resources */ = {isa = PBXBuildFile; fileRef = DA6A99FC1C7D5F6600A8B813 /* MainMenu.sks */; };
 		DA6A99FF1C7D5FCE00A8B813 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6A99FE1C7D5FCE00A8B813 /* MainMenu.swift */; };
 		DA83EFA31C8E85B100B4D398 /* AVTonePlayerUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA83EFA21C8E85B100B4D398 /* AVTonePlayerUnit.swift */; };
 		DA8A9D8F1C9BA29300032F01 /* Tuner.sks in Resources */ = {isa = PBXBuildFile; fileRef = DA8A9D8E1C9BA29300032F01 /* Tuner.sks */; };
-		DA8A9D911C9BAB0400032F01 /* AudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8A9D901C9BAB0400032F01 /* AudioKit.framework */; };
-		DA8A9D921C9BAB0400032F01 /* AudioKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DA8A9D901C9BAB0400032F01 /* AudioKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		DA8A9D991C9BB43C00032F01 /* Pitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8A9D981C9BB43C00032F01 /* Pitch.swift */; };
-		DA8A9D9B1C9BB45C00032F01 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8A9D9A1C9BB45C00032F01 /* Note.swift */; };
-		DA8A9D9D1C9E458600032F01 /* Tuner.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8A9D9C1C9E458600032F01 /* Tuner.swift */; };
 		DADB0E131C98EFCC00F39690 /* RandomTone.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADB0E121C98EFCB00F39690 /* RandomTone.swift */; };
 /* End PBXBuildFile section */
 
@@ -54,7 +52,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				DA8A9D921C9BAB0400032F01 /* AudioKit.framework in Embed Frameworks */,
+				DA1276671CC332D000A3F4EF /* AudioKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -62,8 +60,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		DA0683FE1C87E0300026431B /* Screen Shot 2016-03-02 at 9.59.05 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2016-03-02 at 9.59.05 PM.png"; path = "../../../../../../../Desktop/Screen Shot 2016-03-02 at 9.59.05 PM.png"; sourceTree = "<group>"; };
-		DA0684001C87E4920026431B /* PingA.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = PingA.wav; path = ../../../../../../../Desktop/PingA.wav; sourceTree = "<group>"; };
+		DA1276641CC3307A00A3F4EF /* AudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioKit.framework; path = ../AudioKit.framework; sourceTree = "<group>"; };
+		DA1276661CC332CF00A3F4EF /* AudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AudioKit.framework; sourceTree = "<group>"; };
+		DA3A13591CB053D3008DA621 /* PingA.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = PingA.wav; sourceTree = "<group>"; };
+		DA66ACC81CBB321F00EC17F7 /* NoteSpark.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = NoteSpark.sks; sourceTree = "<group>"; };
+		DA66ACC91CBB321F00EC17F7 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
 		DA6A99C71C7D59F900A8B813 /* SpriteKitTesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpriteKitTesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA6A99CA1C7D59F900A8B813 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA6A99CC1C7D59F900A8B813 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -73,20 +74,16 @@
 		DA6A99D51C7D59F900A8B813 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA6A99D81C7D59F900A8B813 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA6A99DA1C7D59F900A8B813 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DA6A99DF1C7D59F900A8B813 /* SpriteKitTestingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpriteKitTestingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA6A99E31C7D59F900A8B813 /* SpriteKitTestingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitTestingTests.swift; sourceTree = "<group>"; };
+		DA6A99DF1C7D59F900A8B813 /* MuseOfMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuseOfMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA6A99E31C7D59F900A8B813 /* MuseOfMusicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseOfMusicTests.swift; sourceTree = "<group>"; };
 		DA6A99E51C7D59F900A8B813 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DA6A99EA1C7D59F900A8B813 /* SpriteKitTestingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpriteKitTestingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA6A99EE1C7D59F900A8B813 /* SpriteKitTestingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitTestingUITests.swift; sourceTree = "<group>"; };
+		DA6A99EA1C7D59F900A8B813 /* MuseOfMusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuseOfMusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA6A99EE1C7D59F900A8B813 /* MuseOfMusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseOfMusicUITests.swift; sourceTree = "<group>"; };
 		DA6A99F01C7D59F900A8B813 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA6A99FC1C7D5F6600A8B813 /* MainMenu.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainMenu.sks; sourceTree = "<group>"; };
 		DA6A99FE1C7D5FCE00A8B813 /* MainMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
 		DA83EFA21C8E85B100B4D398 /* AVTonePlayerUnit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVTonePlayerUnit.swift; sourceTree = "<group>"; };
 		DA8A9D8E1C9BA29300032F01 /* Tuner.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Tuner.sks; sourceTree = "<group>"; };
-		DA8A9D901C9BAB0400032F01 /* AudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioKit.framework; path = ../AudioKit.framework; sourceTree = "<group>"; };
-		DA8A9D981C9BB43C00032F01 /* Pitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pitch.swift; sourceTree = "<group>"; };
-		DA8A9D9A1C9BB45C00032F01 /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
-		DA8A9D9C1C9E458600032F01 /* Tuner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tuner.swift; path = "/Users/dustin/Documents/OMS CS/EdTech/Prototypes/SpriteKit/SpriteKitTesting/SpriteKitTesting/Tuner.swift"; sourceTree = "<absolute>"; };
 		DADB0E121C98EFCB00F39690 /* RandomTone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomTone.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,7 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA8A9D911C9BAB0400032F01 /* AudioKit.framework in Frameworks */,
+				DA1276651CC3307A00A3F4EF /* AudioKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,9 +116,12 @@
 		DA6A99BE1C7D59F800A8B813 = {
 			isa = PBXGroup;
 			children = (
-				DA6A99C91C7D59F900A8B813 /* SpriteKitTesting */,
-				DA6A99E21C7D59F900A8B813 /* SpriteKitTestingTests */,
-				DA6A99ED1C7D59F900A8B813 /* SpriteKitTestingUITests */,
+				DA1276661CC332CF00A3F4EF /* AudioKit.framework */,
+				DA66ACC81CBB321F00EC17F7 /* NoteSpark.sks */,
+				DA66ACC91CBB321F00EC17F7 /* spark.png */,
+				DA6A99C91C7D59F900A8B813 /* Muse of Music */,
+				DA6A99E21C7D59F900A8B813 /* MuseOfMusicTests */,
+				DA6A99ED1C7D59F900A8B813 /* MuseOfMusicUITests */,
 				DA6A99C81C7D59F900A8B813 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,16 +130,16 @@
 			isa = PBXGroup;
 			children = (
 				DA6A99C71C7D59F900A8B813 /* SpriteKitTesting.app */,
-				DA6A99DF1C7D59F900A8B813 /* SpriteKitTestingTests.xctest */,
-				DA6A99EA1C7D59F900A8B813 /* SpriteKitTestingUITests.xctest */,
+				DA6A99DF1C7D59F900A8B813 /* MuseOfMusicTests.xctest */,
+				DA6A99EA1C7D59F900A8B813 /* MuseOfMusicUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DA6A99C91C7D59F900A8B813 /* SpriteKitTesting */ = {
+		DA6A99C91C7D59F900A8B813 /* Muse of Music */ = {
 			isa = PBXGroup;
 			children = (
-				DA8A9D971C9BB31000032F01 /* Tuner Logic */,
+				DA3A13591CB053D3008DA621 /* PingA.wav */,
 				DA8A9D951C9BABC900032F01 /* Scenes */,
 				DADB0E121C98EFCB00F39690 /* RandomTone.swift */,
 				DA6A99CA1C7D59F900A8B813 /* AppDelegate.swift */,
@@ -153,31 +153,34 @@
 				DA8A9D961C9BABFC00032F01 /* Assets */,
 				DA8A9D941C9BABB000032F01 /* Frameworks */,
 			);
+			name = "Muse of Music";
 			path = SpriteKitTesting;
 			sourceTree = "<group>";
 		};
-		DA6A99E21C7D59F900A8B813 /* SpriteKitTestingTests */ = {
+		DA6A99E21C7D59F900A8B813 /* MuseOfMusicTests */ = {
 			isa = PBXGroup;
 			children = (
-				DA6A99E31C7D59F900A8B813 /* SpriteKitTestingTests.swift */,
+				DA6A99E31C7D59F900A8B813 /* MuseOfMusicTests.swift */,
 				DA6A99E51C7D59F900A8B813 /* Info.plist */,
 			);
+			name = MuseOfMusicTests;
 			path = SpriteKitTestingTests;
 			sourceTree = "<group>";
 		};
-		DA6A99ED1C7D59F900A8B813 /* SpriteKitTestingUITests */ = {
+		DA6A99ED1C7D59F900A8B813 /* MuseOfMusicUITests */ = {
 			isa = PBXGroup;
 			children = (
-				DA6A99EE1C7D59F900A8B813 /* SpriteKitTestingUITests.swift */,
+				DA6A99EE1C7D59F900A8B813 /* MuseOfMusicUITests.swift */,
 				DA6A99F01C7D59F900A8B813 /* Info.plist */,
 			);
+			name = MuseOfMusicUITests;
 			path = SpriteKitTestingUITests;
 			sourceTree = "<group>";
 		};
 		DA8A9D941C9BABB000032F01 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DA8A9D901C9BAB0400032F01 /* AudioKit.framework */,
+				DA1276641CC3307A00A3F4EF /* AudioKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -195,21 +198,9 @@
 		DA8A9D961C9BABFC00032F01 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				DA0683FE1C87E0300026431B /* Screen Shot 2016-03-02 at 9.59.05 PM.png */,
-				DA0684001C87E4920026431B /* PingA.wav */,
 				DA6A99D51C7D59F900A8B813 /* Assets.xcassets */,
 			);
 			name = Assets;
-			sourceTree = "<group>";
-		};
-		DA8A9D971C9BB31000032F01 /* Tuner Logic */ = {
-			isa = PBXGroup;
-			children = (
-				DA8A9D981C9BB43C00032F01 /* Pitch.swift */,
-				DA8A9D9A1C9BB45C00032F01 /* Note.swift */,
-				DA8A9D9C1C9E458600032F01 /* Tuner.swift */,
-			);
-			name = "Tuner Logic";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,9 +224,9 @@
 			productReference = DA6A99C71C7D59F900A8B813 /* SpriteKitTesting.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DA6A99DE1C7D59F900A8B813 /* SpriteKitTestingTests */ = {
+		DA6A99DE1C7D59F900A8B813 /* MuseOfMusicTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DA6A99F61C7D59F900A8B813 /* Build configuration list for PBXNativeTarget "SpriteKitTestingTests" */;
+			buildConfigurationList = DA6A99F61C7D59F900A8B813 /* Build configuration list for PBXNativeTarget "MuseOfMusicTests" */;
 			buildPhases = (
 				DA6A99DB1C7D59F900A8B813 /* Sources */,
 				DA6A99DC1C7D59F900A8B813 /* Frameworks */,
@@ -246,14 +237,14 @@
 			dependencies = (
 				DA6A99E11C7D59F900A8B813 /* PBXTargetDependency */,
 			);
-			name = SpriteKitTestingTests;
+			name = MuseOfMusicTests;
 			productName = SpriteKitTestingTests;
-			productReference = DA6A99DF1C7D59F900A8B813 /* SpriteKitTestingTests.xctest */;
+			productReference = DA6A99DF1C7D59F900A8B813 /* MuseOfMusicTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DA6A99E91C7D59F900A8B813 /* SpriteKitTestingUITests */ = {
+		DA6A99E91C7D59F900A8B813 /* MuseOfMusicUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DA6A99F91C7D59F900A8B813 /* Build configuration list for PBXNativeTarget "SpriteKitTestingUITests" */;
+			buildConfigurationList = DA6A99F91C7D59F900A8B813 /* Build configuration list for PBXNativeTarget "MuseOfMusicUITests" */;
 			buildPhases = (
 				DA6A99E61C7D59F900A8B813 /* Sources */,
 				DA6A99E71C7D59F900A8B813 /* Frameworks */,
@@ -264,9 +255,9 @@
 			dependencies = (
 				DA6A99EC1C7D59F900A8B813 /* PBXTargetDependency */,
 			);
-			name = SpriteKitTestingUITests;
+			name = MuseOfMusicUITests;
 			productName = SpriteKitTestingUITests;
-			productReference = DA6A99EA1C7D59F900A8B813 /* SpriteKitTestingUITests.xctest */;
+			productReference = DA6A99EA1C7D59F900A8B813 /* MuseOfMusicUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -309,8 +300,8 @@
 			projectRoot = "";
 			targets = (
 				DA6A99C61C7D59F900A8B813 /* SpriteKitTesting */,
-				DA6A99DE1C7D59F900A8B813 /* SpriteKitTestingTests */,
-				DA6A99E91C7D59F900A8B813 /* SpriteKitTestingUITests */,
+				DA6A99DE1C7D59F900A8B813 /* MuseOfMusicTests */,
+				DA6A99E91C7D59F900A8B813 /* MuseOfMusicUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -321,13 +312,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA6A99CD1C7D59F900A8B813 /* GameScene.sks in Resources */,
+				DA66ACCB1CBB321F00EC17F7 /* spark.png in Resources */,
 				DA6A99D91C7D59F900A8B813 /* LaunchScreen.storyboard in Resources */,
 				DA6A99D61C7D59F900A8B813 /* Assets.xcassets in Resources */,
-				DA0683FF1C87E0310026431B /* Screen Shot 2016-03-02 at 9.59.05 PM.png in Resources */,
+				DA66ACCA1CBB321F00EC17F7 /* NoteSpark.sks in Resources */,
 				DA6A99FD1C7D5F6600A8B813 /* MainMenu.sks in Resources */,
 				DA6A99D41C7D59F900A8B813 /* Main.storyboard in Resources */,
 				DA8A9D8F1C9BA29300032F01 /* Tuner.sks in Resources */,
-				DA0684011C87E4920026431B /* PingA.wav in Resources */,
+				DA3A135A1CB053D3008DA621 /* PingA.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,10 +345,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA6A99CF1C7D59F900A8B813 /* GameScene.swift in Sources */,
-				DA8A9D9D1C9E458600032F01 /* Tuner.swift in Sources */,
-				DA8A9D991C9BB43C00032F01 /* Pitch.swift in Sources */,
 				DA83EFA31C8E85B100B4D398 /* AVTonePlayerUnit.swift in Sources */,
-				DA8A9D9B1C9BB45C00032F01 /* Note.swift in Sources */,
 				DA6A99D11C7D59F900A8B813 /* GameViewController.swift in Sources */,
 				DA6A99CB1C7D59F900A8B813 /* AppDelegate.swift in Sources */,
 				DADB0E131C98EFCC00F39690 /* RandomTone.swift in Sources */,
@@ -368,7 +357,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA6A99E41C7D59F900A8B813 /* SpriteKitTestingTests.swift in Sources */,
+				DA6A99E41C7D59F900A8B813 /* MuseOfMusicTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,7 +365,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA6A99EF1C7D59F900A8B813 /* SpriteKitTestingUITests.swift in Sources */,
+				DA6A99EF1C7D59F900A8B813 /* MuseOfMusicUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,7 +440,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -490,7 +479,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -507,9 +496,10 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = SpriteKitTesting/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.gigwatts.SpriteKitTesting;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gigwatts.MuseOfMusic;
+				PRODUCT_NAME = SpriteKitTesting;
 			};
 			name = Debug;
 		};
@@ -522,9 +512,10 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = SpriteKitTesting/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.gigwatts.SpriteKitTesting;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gigwatts.MuseOfMusic;
+				PRODUCT_NAME = SpriteKitTesting;
 			};
 			name = Release;
 		};
@@ -533,9 +524,9 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				INFOPLIST_FILE = SpriteKitTestingTests/Info.plist;
+				INFOPLIST_FILE = MuseOfMusicTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.gigwatts.SpriteKitTestingTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gigwatts.MuseOfMusicTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpriteKitTesting.app/SpriteKitTesting";
 			};
@@ -545,9 +536,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = SpriteKitTestingTests/Info.plist;
+				INFOPLIST_FILE = MuseOfMusicTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.gigwatts.SpriteKitTestingTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gigwatts.MuseOfMusicTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpriteKitTesting.app/SpriteKitTesting";
 			};
@@ -557,11 +548,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				INFOPLIST_FILE = SpriteKitTestingUITests/Info.plist;
+				INFOPLIST_FILE = MuseOfMusicUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.gigwatts.SpriteKitTestingUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gigwatts.MuseOfMusicUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = SpriteKitTesting;
+				TEST_TARGET_NAME = "Muse of Music";
 				USES_XCTRUNNER = YES;
 			};
 			name = Debug;
@@ -569,11 +560,11 @@
 		DA6A99FB1C7D59F900A8B813 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = SpriteKitTestingUITests/Info.plist;
+				INFOPLIST_FILE = MuseOfMusicUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.gigwatts.SpriteKitTestingUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gigwatts.MuseOfMusicUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = SpriteKitTesting;
+				TEST_TARGET_NAME = "Muse of Music";
 				USES_XCTRUNNER = YES;
 			};
 			name = Release;
@@ -599,7 +590,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DA6A99F61C7D59F900A8B813 /* Build configuration list for PBXNativeTarget "SpriteKitTestingTests" */ = {
+		DA6A99F61C7D59F900A8B813 /* Build configuration list for PBXNativeTarget "MuseOfMusicTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DA6A99F71C7D59F900A8B813 /* Debug */,
@@ -608,7 +599,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DA6A99F91C7D59F900A8B813 /* Build configuration list for PBXNativeTarget "SpriteKitTestingUITests" */ = {
+		DA6A99F91C7D59F900A8B813 /* Build configuration list for PBXNativeTarget "MuseOfMusicUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DA6A99FA1C7D59F900A8B813 /* Debug */,

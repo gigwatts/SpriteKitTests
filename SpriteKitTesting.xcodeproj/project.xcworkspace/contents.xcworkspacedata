@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:SpriteKitTesting.xcodeproj">
+      location = "self:/Users/dustin/Documents/OMS CS/EdTech/Prototypes/SpriteKit/SpriteKitTesting/SpriteKitTesting.xcodeproj">
    </FileRef>
 </Workspace>
